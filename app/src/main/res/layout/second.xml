@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBECEE">
+    <TextView
+        android:id="@+id/text_exam"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="PASSED驾考帮"
+        android:textColor="@color/exam_text"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/exam_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="科一"
+        android:textColor="@color/exam_text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintTop_toBottomOf="@+id/text_exam" />
+
+    <TextView
+        android:id="@+id/exam_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="科二"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_exam" />
+
+    <TextView
+        android:id="@+id/exam_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="科三"
+        android:textColor="@color/exam_text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_exam" />
+
+    <TextView
+        android:id="@+id/exam_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="科四"
+        android:textColor="@color/exam_text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_exam" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="5px"
+        android:background="@color/exam_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exam_two" />
+
+    <TextView
+        android:id="@+id/text_two_intro"
+        android:layout_width="138dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/singleline_style"
+        android:paddingLeft="60dp"
+        android:paddingTop="30dp"
+        android:paddingRight="5dp"
+        android:text="科二介绍"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="@+id/two_intro"
+        app:layout_constraintEnd_toEndOf="@+id/two_intro"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="@+id/two_intro"
+        app:layout_constraintTop_toTopOf="@+id/two_intro"
+        app:layout_constraintVertical_bias="0.535"
+        app:srcCompat="@drawable/file" />
+
+    <TextView
+        android:id="@+id/text_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="考试项目"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/two_flow_intro"
+        android:layout_width="138dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/singleline_style"
+        android:paddingLeft="60dp"
+        android:paddingTop="30dp"
+        android:paddingRight="5dp"
+        android:text="考试流程"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/two_flow_intro"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="@+id/two_flow_intro"
+        app:layout_constraintTop_toTopOf="@+id/two_flow_intro"
+        app:srcCompat="@drawable/flow" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/video_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:background="#EBECEE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_show" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

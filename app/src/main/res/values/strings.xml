@@ -1,0 +1,19 @@
+<resources>
+
+    <!--  ============================================  -->
+    <string name="app_name">PASSED</string>
+    <string name="title_exam">考试</string>
+    <string name="title_dashboard">介绍</string>
+    <string name="title_notifications">我的</string>
+    <string name="text_practice">顺 序 练 习</string>
+    <string name="text_practice1">练习进度</string>
+    <string name="text_practice2">正确/错误</string>
+    <string name="text_practice3">随 机 练 习</string>
+    <string name="text_practice4">考试次数</string>
+    <string name="text_practice5">通过/不通过</string>
+    <string name="text_practice6">模 拟 考 试</string>
+    <string name="text_practice7">专 项 练 习</string>
+    <string name="my_say">驾照要考一次过</string>
+    <string name="my_error">错 题 集</string>
+    <string name="my_collection">收 藏 夹</string>
+</resources>

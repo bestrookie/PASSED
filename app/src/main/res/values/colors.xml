@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlue">#587EAB</color>
+    <color name="colorBlueDark">#103286</color>
+    <color name="colorYellow">#CCBC54</color>
+    <color name="colorBlack">#101010</color>
+    <color name="colorBackground">#EBECEE</color>
+<!--===============================-->
+    <color name="colorPrimary">#587EAB</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="background">#EBECEE</color>
+    <color name="exam_text">#333E5A</color>
+    <color name="exam_practice">#103286</color>
+    <color name="round">#587EAB</color>
+    <color name="my_text">#424242</color>
+    <color name="my_waring">#A7A7A7</color>
+    <color name="my_button">#CFDDEE</color>
+    <color name="my_result">#101010</color>
+    <color name="practice_answer">#ccbc54</color>
+    <color name="round1">#FFFF66</color>
+    <color name="round2">#9933FF</color>
+</resources>
